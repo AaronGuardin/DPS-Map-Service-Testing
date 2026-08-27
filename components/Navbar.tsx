@@ -16,7 +16,6 @@ import {
 import { navigation } from "@/config/navigation"
 import Settings from "./Setting"
 import Logo from "./Logo"
-import Image from "next/image"
 
 export function Navbar() {
   const translate = useTranslations("Navigation")

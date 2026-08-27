@@ -16,5 +16,10 @@
     "english": "English",
     "myanmar": "Myanmar (Burmese)"
   },
-  "Home": {}
+  "Home": {
+    "title": "Mapping Myanmar since 1995",
+    "description": "Explore detailed city, state and regional maps built with local knowledge, field surveying and decades of cartographic experience.",
+    "exploreMaps": "Explore Maps",
+    "learnMore": "Learn More"
+  }
 }
