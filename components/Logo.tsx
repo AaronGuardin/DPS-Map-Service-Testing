@@ -12,7 +12,7 @@ export default function Logo() {
 
         <div className="relative flex flex-col items-center justify-center">
           <Image
-            src="/Logo.png"
+            src="/logo-Photoroom.png"
             alt="DPS Map Logo"
             width={34}
             height={34}
