@@ -14,6 +14,7 @@ import {
 
 import { navigation } from "@/config/navigation"
 import Logo from "./Logo"
+import Settings from "./Setting"
 
 export function Navbar() {
   return (
@@ -36,9 +37,7 @@ export function Navbar() {
 
         {/* Desktop Action */}
         <div className="hidden md:block">
-          <Button asChild>
-            <Link href="/explore">Explore Map</Link>
-          </Button>
+          <Settings />
         </div>
 
         {/* Mobile Navigation */}
@@ -52,7 +51,7 @@ export function Navbar() {
 
           <SheetContent side="right">
             <SheetHeader>
-              <SheetTitle>DPS Map</SheetTitle>
+              <SheetTitle>MyMap</SheetTitle>
             </SheetHeader>
 
             <nav className="mt-8 flex flex-col gap-4">
@@ -66,9 +65,7 @@ export function Navbar() {
                 </Link>
               ))}
 
-              <Button asChild className="mt-4">
-                <Link href="/explore">Explore Map</Link>
-              </Button>
+              <Settings />
             </nav>
           </SheetContent>
         </Sheet>
