@@ -1,0 +1,19 @@
+{
+  "Navigation": {
+    "home": "ပင်မ",
+    "maps": "မြေပုံများ",
+    "gis": "GIS",
+    "downloads": "ဒေါင်းလုဒ်များ",
+    "industrial zones": "စက်မှုဇုန်များ",
+    "about us": "ကျွန်ုပ်တို့အကြောင်း"
+  },
+  "Settings": {
+    "settings": "ဆက်တင်များ",
+    "appearance": "အသွင်အပြင်",
+    "language": "ဘာသာစကား",
+    "darkMode": "အမှောင်",
+    "lightMode": "အလင်း",
+    "english": "English",
+    "myanmar": "မြန်မာ (ဗမာ)"
+  }
+}

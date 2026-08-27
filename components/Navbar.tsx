@@ -1,6 +1,7 @@
 "use client"
 
-import Link from "next/link"
+import { useTranslations } from "next-intl"
+import { Link } from "@/i18n/routing"
 import { Menu } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -13,10 +14,12 @@ import {
 } from "@/components/ui/sheet"
 
 import { navigation } from "@/config/navigation"
-import Logo from "./Logo"
 import Settings from "./Setting"
+import Logo from "./Logo"
+import Image from "next/image"
 
 export function Navbar() {
+  const translate = useTranslations("Navigation")
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
@@ -30,7 +33,7 @@ export function Navbar() {
               href={item.href}
               className="text-sm font-medium transition-colors hover:text-primary"
             >
-              {item.name}
+              {translate(item.key)}
             </Link>
           ))}
         </nav>
@@ -51,7 +54,9 @@ export function Navbar() {
 
           <SheetContent side="right">
             <SheetHeader>
-              <SheetTitle>MyMap</SheetTitle>
+              <SheetTitle>
+                <Logo />
+              </SheetTitle>
             </SheetHeader>
 
             <nav className="mt-8 flex flex-col gap-4">
@@ -61,12 +66,14 @@ export function Navbar() {
                   href={item.href}
                   className="rounded-md px-3 py-2 text-sm font-medium hover:bg-muted"
                 >
-                  {item.name}
+                  {translate(item.key)}
                 </Link>
               ))}
-
-              <Settings />
             </nav>
+
+            <div className="rounded-md text-sm font-medium hover:bg-muted">
+              <Settings />
+            </div>
           </SheetContent>
         </Sheet>
       </div>

@@ -1,26 +1,26 @@
 export const navigation = [
   {
-    name: "Home",
+    key: "home",
     href: "/",
   },
   {
-    name: "Maps",
+    key: "maps",
     href: "/maps",
   },
   {
-    name: "GIS Services",
-    href: "/gis-services",
+    key: "gis",
+    href: "/gis",
   },
   {
-    name: "Industrial Zones",
+    key: "industrial zones",
     href: "/industrial-zones",
   },
   {
-    name: "Downloads",
-    href: "/map-downloads",
+    key: "downloads",
+    href: "/downloads",
   },
   {
-    name: "About Us",
-    href: "/about-us",
+    key: "about us",
+    href: "/about",
   },
 ]

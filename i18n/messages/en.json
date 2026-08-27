@@ -1,0 +1,20 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "maps": "Maps",
+    "gis": "GIS",
+    "downloads": "Downloads",
+    "industrial zones": "Industrial zones",
+    "about us": "About us"
+  },
+  "Settings": {
+    "settings": "Settings",
+    "appearance": "Appearance",
+    "language": "Language",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "english": "English",
+    "myanmar": "Myanmar (Burmese)"
+  },
+  "Home": {}
+}
