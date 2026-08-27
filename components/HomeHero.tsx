@@ -11,7 +11,7 @@ export default async function HomeHero() {
       <div className="grid items-center gap-12 lg:grid-cols-2">
         {/* Text */}
         <div>
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+          <h1 className="font-myanmar text-xl leading-[1.6] font-bold tracking-normal sm:text-2xl md:text-3xl lg:text-4xl lg:leading-[1.5]">
             {translate("title")}
           </h1>
 

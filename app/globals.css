@@ -1,9 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
-
 @custom-variant dark (&:is(.dark *));
-
+@import "maplibre-gl/dist/maplibre-gl.css";
 @theme inline {
   --font-heading: var(--font-sans);
   --font-sans: var(--font-sans);
