@@ -36,7 +36,7 @@ export default function MapPreview() {
       },
 
       center: [96.0, 19.5],
-      zoom: 6,
+      zoom: 4,
     })
 
     return () => {

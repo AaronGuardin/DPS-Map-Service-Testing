@@ -1,0 +1,16 @@
+export const regions = [
+  { key: "kachin", href: "/map/kachin" },
+  { key: "kayah", href: "/map/kayah" },
+  { key: "kayin", href: "/map/kayin" },
+  { key: "chin", href: "/map/chin" },
+  { key: "sagaing", href: "/map/sagaing" },
+  { key: "tanintharyi", href: "/map/tanintharyi" },
+  { key: "bago", href: "/map/bago" },
+  { key: "magway", href: "/map/magway" },
+  { key: "mandalay", href: "/map/mandalay" },
+  { key: "mon", href: "/map/mon" },
+  { key: "rakhine", href: "/map/rakhine" },
+  { key: "yangon", href: "/map/yangon" },
+  { key: "shan", href: "/map/shan" },
+  { key: "naypyidaw", href: "/map/naypyidaw" },
+]

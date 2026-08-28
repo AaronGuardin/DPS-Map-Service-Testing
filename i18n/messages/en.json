@@ -21,5 +21,114 @@
     "description": "Explore detailed city, state and regional maps built with local knowledge, field surveying and decades of cartographic experience.",
     "exploreMaps": "Explore Maps",
     "learnMore": "Learn More"
+  },
+
+  "FeaturedMaps": {
+    "eyebrow": "EXPLORE",
+    "title": "Popular Maps",
+    "description": "Explore maps and geographic information across Myanmar.",
+    "viewAll": "View All Maps",
+    "explore": "Explore",
+    "maps": {
+      "myanmar": {
+        "title": "Myanmar",
+        "description": "Explore the map of Myanmar."
+      },
+      "yangon": {
+        "title": "Yangon",
+        "description": "Explore Yangon and its surrounding areas."
+      },
+      "mandalay": {
+        "title": "Mandalay",
+        "description": "Explore Mandalay and its surrounding areas."
+      }
+    }
+  },
+  "Regions": {
+    "eyebrow": "EXPLORE MYANMAR",
+    "title": "States & Regions",
+    "description": "Explore maps and geographic information by state and region.",
+    "items": {
+      "kachin": "Kachin State",
+      "kayah": "Kayah State",
+      "kayin": "Kayin State",
+      "chin": "Chin State",
+      "sagaing": "Sagaing Region",
+      "tanintharyi": "Tanintharyi Region",
+      "bago": "Bago Region",
+      "magway": "Magway Region",
+      "mandalay": "Mandalay Region",
+      "mon": "Mon State",
+      "rakhine": "Rakhine State",
+      "yangon": "Yangon Region",
+      "shan": "Shan State",
+      "naypyidaw": "Naypyidaw"
+    }
+  },
+  "AboutPreview": {
+    "eyebrow": "ABOUT US",
+    "title": "Mapping Myanmar with better geospatial information",
+    "description": "Our platform provides maps, geographic information, and location-based resources designed to make mapping and spatial data easier to explore and use.",
+    "button": "Learn More",
+    "stats": {
+      "regions": "States & Regions",
+      "maps": "Available Maps",
+      "gis": "GIS Platform",
+      "access": "Online Access"
+    }
+  },
+  "Services": {
+    "eyebrow": "WHAT WE OFFER",
+    "title": "Mapping & Geospatial Services",
+    "description": "Explore our mapping and geospatial capabilities designed to make geographic information easier to access and use.",
+    "items": {
+      "mapping": {
+        "title": "Digital Mapping",
+        "description": "Explore digital maps and geographic information through an interactive mapping platform."
+      },
+      "gis": {
+        "title": "GIS Services",
+        "description": "Work with geographic information and spatial data using modern GIS technologies."
+      },
+      "data": {
+        "title": "Geospatial Data",
+        "description": "Access and explore structured geographic data for different locations and applications."
+      },
+      "location": {
+        "title": "Location Services",
+        "description": "Find and explore places, locations, and geographic information across Myanmar."
+      },
+      "navigation": {
+        "title": "Navigation",
+        "description": "Explore locations and geographic areas with map-based navigation tools."
+      },
+      "printing": {
+        "title": "Map Design & Printing",
+        "description": "Prepare geographic information and maps for presentation and physical use."
+      }
+    }
+  },
+  "HomeCTA": {
+    "eyebrow": "START EXPLORING",
+    "title": "Discover Myanmar through maps",
+    "description": "Explore geographic information, discover places, and find the maps you need with our mapping platform.",
+    "exploreMaps": "Explore Maps",
+    "contact": "Learn More"
+  },
+  "Footer": {
+    "description": "A mapping and geospatial information platform for exploring Myanmar.",
+    "navigation": "Navigation",
+    "resources": "Resources",
+    "contact": "Contact",
+    "contactDescription": "Explore maps, geographic information, and location-based resources.",
+    "rights": "All rights reserved.",
+    "madeForMyanmar": "Built for Myanmar",
+    "links": {
+      "home": "Home",
+      "maps": "Maps",
+      "gis": "GIS",
+      "downloads": "Downloads",
+      "about": "About Us"
+    }
   }
 }
