@@ -90,7 +90,7 @@ export default function Maps() {
   return (
     <div className="relative h-[calc(100vh-64px)] w-full">
       {isLoading && (
-        <div className="absolute top-4 left-4 z-10 rounded-lg bg-white p-3 shadow">
+        <div className="absolute top-4 left-4 z-10 rounded-lg bg-white p-3 text-black shadow">
           Loading places...
         </div>
       )}
