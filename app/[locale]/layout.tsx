@@ -1,7 +1,7 @@
-import Footer from "@/components/Footer"
 import { Navbar } from "@/components/Navbar"
 import { NextIntlClientProvider } from "next-intl"
 import { getMessages, getLocale } from "next-intl/server"
+import Providers from "../providers"
 
 export default async function LocaleLayout({
   children,
@@ -13,8 +13,10 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <Navbar />
-      {children}
+      <Providers>
+        <Navbar />
+        {children}
+      </Providers>
     </NextIntlClientProvider>
   )
 }
