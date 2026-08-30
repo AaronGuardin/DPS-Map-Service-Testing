@@ -21,7 +21,7 @@ export default async function HomeHero() {
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button size="lg" asChild>
-              <Link href="/map">{translate("exploreMaps")}</Link>
+              <Link href="/maps">{translate("exploreMaps")}</Link>
             </Button>
 
             <Button size="lg" variant="outline" asChild>
